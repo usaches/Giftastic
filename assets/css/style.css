@@ -4,3 +4,19 @@ form,
 input {
     margin: 10px;
 }
+body {
+    background: url("../images/TV.jpg") repeat;
+    color: whitesmoke;
+
+}
+h1 {
+    color: gold;
+}
+
+button, input{
+    background-color: goldenrod;
+    font-weight: bold;
+}
+img{
+    border: thick solid darkgoldenrod;
+}
