@@ -82,7 +82,7 @@ console.log(response.data[j].images.fixed_height.url);
 
 var imageUrl = response.data[j].images.fixed_height_still.url;
 var rating2 = response.data[j].rating.toUpperCase();
-var newImage = $("<img>" +"<div id='division'></div>");
+var newImage = $("<img>" +"<p id='division'></p>");
 
 newImage.addClass("imageClass");
 newImage.attr("src", imageUrl);
